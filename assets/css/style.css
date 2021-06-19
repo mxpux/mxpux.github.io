@@ -2,3 +2,36 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+nav {
+    font-size: small;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+h4 {
+    letter-spacing: 2px;
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-right: 20px;
+    padding: auto;
+
+}
+
+.containerhero {
+    position: relative;
+    color: white;
+  }
+
+  .top-right {
+    position: absolute;
+    font-size: 50px;
+    top: 230px;
+    right: 10%;
+  }
+
+  .aboutme {
+      font-size: small;
+      display: flex;
+      justify-content: center;
+  }
