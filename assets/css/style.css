@@ -16,22 +16,54 @@ h4 {
     margin-right: 20px;
     padding: auto;
 
+
 }
 
 .containerhero {
     position: relative;
-    color: white;
+  }
+ 
+  a:link {
+    text-decoration: none; 
+    color: #333;
   }
 
-  .top-right {
+  a:visited {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    background-color: #e0bc34;
+    padding: 2px;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  
+.containerinfo {
+    background-color: antiquewhite;
+
+}
+  /* /* .top-right {
     position: absolute;
     font-size: 50px;
     top: 230px;
     right: 10%;
-  }
+  } */
 
-  .aboutme {
-      font-size: small;
+
+  /* .top-right {
+      font-size: x-large;
+      font-weight: bolder;
       display: flex;
       justify-content: center;
+      align-items: center;
   }
+
+#aboutme {
+    font-size: xx-large;
+} */
