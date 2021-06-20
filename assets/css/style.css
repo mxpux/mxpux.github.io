@@ -45,7 +45,7 @@ h4 {
 
   
 .containerinfo {
-    background-color: antiquewhite;
+    background-color: rgb(211, 128, 19);
 
 }
 
@@ -118,9 +118,25 @@ h4 {
     display: flex;
     letter-spacing: 5px;
     background-color: rgb(255, 255, 255);
+
 }
 
 
 .clients {
-    background-color:darkslateblue;
+    background-color:rgb(255, 255, 255);
+    position: absolute;
+    color: #333;
+    width: 37%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+.clogo {
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
 }
