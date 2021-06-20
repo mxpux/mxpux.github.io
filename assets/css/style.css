@@ -1,16 +1,7 @@
+
+/* HEADER */
 body {
     font-family: 'Raleway', sans-serif;
-}
-
-.xcolor {
-    color: #ffcc00;
-}
-
-nav {
-    font-size: small;
-    position: absolute;
-    top: 20px;
-    right: 0px;
 }
 
 h4 {
@@ -19,41 +10,48 @@ h4 {
     padding-bottom: 30px;
     margin-right: 20px;
     padding: auto;
-
-
 }
-
 
 .containerhero {
     position: relative;
-  }
- 
-  a:link {
+}
+
+/* NAV SECTION */
+nav {
+    font-size: small;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+a:link {
     text-decoration: none; 
     color: #333;
-  }
+}
 
-  a:visited {
+a:visited {
     text-decoration: none;
     color: #333;
-  }
+}
   
-  a:hover {
+a:hover {
     text-decoration: none;
     background-color: #ffcc00;
     padding: 2px;
-  }
+}
   
-  a:active {
+a:active {
     text-decoration: none;
-  }
-
-  
-.containerinfo {
-    background-color: rgb(255, 255, 255);
-
 }
 
+/* END OF NAV SECTION */
+/* END OF HEADER */
+
+.containerinfo {
+    background-color: rgb(255, 255, 255);
+}
+
+/* START OF ABOUT ME SECTION */
 .amtitle {
     font-size: 20px;
     font-weight: bolder;
@@ -72,24 +70,24 @@ h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Raleway', sans-serif;
 }
-.ampix {
 
+/* START OF ABOUT ME PHOTO SECTION */
+.ampix {
     background-color: rgb(255, 255, 255);    
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 20%;
     filter: grayscale(100%);
-
 }
 
-.ampix:hover{
+.ampix:hover {
     filter: grayscale(0%);
     filter: rgb(211, 209, 209);
     filter: none;
-    }
+}
 
 .ampix p {
     padding-right: 30%;
@@ -102,7 +100,8 @@ h4 {
     line-height: 23px;
 }
 
-
+/* END OF PHOTO SECTION */
+/* START OF RESUME SECTION */
 .button {
     background-color: #ffcc00; 
     border: none;
@@ -116,41 +115,42 @@ h4 {
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
 
-  .button4 {
+.button4 {
     background-color: white;
     color: black;
     border: 2px solid #ffffff;
-  }
+}
   
-  .button4:hover {
+.button4:hover {
     background-color: #ffcc00;
     font-style: oblique;
-
 }
 
+/* END OF RESUME SECTION */
+/* END OF ABOUT ME SECTION */
 
+/* START OF TITLE SECTION */
 .clist, .contactform, .proj {
     font-size: 20px;
     font-weight: bolder;
-    padding-top: 7%;
+    padding-top: 3%;
     align-items: center;
     justify-content: center;
     display: flex;
     letter-spacing: 5px;
     padding-bottom: 59px;
-
 }
+/* END OF TITLE SECTION */
 
-
+/* START OF CLIENTS SECTION */
 .clients {
     align-items: center;
     justify-content: center;
     display: flex;
     letter-spacing: 5px;
     padding-bottom: 59px;
-    
 }
 
 .clogo {
@@ -160,46 +160,41 @@ h4 {
     padding-bottom: 30px;
     align-items: center;
     justify-content: center;
-
-
 }
 
-
-
-
+/* END OF CLIENTS SECTION */
+/* START OF PROJECTS SECTION */
 .work {
     align-items: center;
     justify-content: center;
     display: flex;
     letter-spacing: 5px;
-    padding-bottom: 59px;
-    
+    padding-bottom: 29px; 
 }
 
 .projport {
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 20px;
     padding-right: 15px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     align-items: center;
     justify-content: center;
-
-
 }
 
-
+/* END OF PROJECT SECTION */
+/* START OF FORM SECTION */
 .form {
-    padding-top: 50px;
+    padding-top: 10px;
     flex-direction: row;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
-input[type=text] {
-    width: 400px;
+#name, input[type=text] {
+    width: 150px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -207,27 +202,39 @@ input[type=text] {
     border-top: none;
     border-left: none;
     border-right: none;
+}
 
+#email, input[type=text] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-bottom: solid 2px #ffcc00;
+    border-top: none;
+    border-left: none;
+    border-right: none;
 }
 
 input[type=submit] {
     background-color: #ffcc00;
     color: white;
-    padding: 12px 20px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 3px;
     cursor: pointer;
-  }
+}
   
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: #333;
-  }
+}
+/* END OF FORM SECTION */
 
-  /* -----media query------ */
 
-  /* Tablets */
-@media screen and (max-width: 992px) {
-    nav { 
+/* -----Media Query------ */
+
+    /* Tablets */
+    @media screen and (max-width: 992px) {
+        nav { 
         background-color: #ffcc00;
         flex-direction: column;
         display: flex;
@@ -252,7 +259,6 @@ input[type=submit] {
         align-items: center;
         font-weight: bolder;
         width: 280px;
-    
         }
 
         .clogo {
@@ -263,41 +269,40 @@ input[type=submit] {
         justify-content: center;
         align-items: center;
         font-weight: bolder;
+        position: relative;        
+        }
+    }
+
+    /* Large smartphones */
+    @media screen and (max-width: 768px) {
+        nav {
+        background-color: #ffcc00;
+        flex-direction: column;
+        display: flex;
         position: relative;
-            
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
         }
 
-/* Large smartphones */
-@media screen and (max-width: 768px) {
-  nav {
-    background-color: #ffcc00;
-    flex-direction: column;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-    }
-
-    nav:hover {
-    text-decoration: none;
-    background-color: #ffffff;
-    padding: 2px;
+        nav:hover {
+        text-decoration: none;
+        background-color: #ffffff;
+        padding: 2px;
         }
 
-    .ampix, p {
-    background-color: #ffffff;
-    flex-direction: column;
-    flex-flow: wrap;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    font-weight: bolder;
-    width: 280px;
+        .ampix, p {
+        background-color: #ffffff;
+        flex-direction: column;
+        flex-flow: wrap;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        width: 280px;
+        }
 
-    }
-
-    .clogo {
+        .clogo {
         background-color: #ffffff;
         flex-direction: column;
         display: flex;
@@ -305,14 +310,13 @@ input[type=submit] {
         justify-content: center;
         align-items: center;
         font-weight: bolder;
-        position: relative;
-        
+        position: relative;   
         }
+    }
 
-
-/* Small smartphones */
-@media screen and (max-width: 576px) {
-    nav {
+    /* Small smartphones */
+    @media screen and (max-width: 576px) {
+        nav {
         background-color: #ffcc00;
         flex-direction: column;
         display: flex;
@@ -337,7 +341,6 @@ input[type=submit] {
         align-items: center;
         font-weight: bolder;
         width: 280px;
-    
         }
 
         .clogo {
@@ -349,5 +352,7 @@ input[type=submit] {
         align-items: center;
         font-weight: bolder;
         position: relative;
-        
         }
+    }
+    
+    /* -----End of Media Query------ */
