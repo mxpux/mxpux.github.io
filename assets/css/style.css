@@ -2,6 +2,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.xcolor {
+    color: #ffcc00;
+}
+
 nav {
     font-size: small;
     position: absolute;
@@ -18,6 +22,7 @@ h4 {
 
 
 }
+
 
 .containerhero {
     position: relative;
@@ -60,26 +65,43 @@ h4 {
     background-color: rgb(255, 255, 255);
 }
 
-.ampix {
-    align-items: center;
-    background-color: rgb(255, 255, 255);    
+.bio {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    flex-direction: row;
     display: flex;
+    justify-content: center;
     align-items: center;
-    padding-left: 28%;
 
 }
+.ampix {
+
+    background-color: rgb(255, 255, 255);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+    filter: grayscale(100%);
+
+}
+
+.ampix:hover{
+    filter: grayscale(0%);
+    filter: rgb(211, 209, 209);
+    filter: none;
+    }
 
 .ampix p {
     padding-right: 30%;
     display: flexbox;
-    /* flex-wrap: wrap; */
-    max-width: 300px;
+    flex-wrap: wrap;
+    max-width: 200px;
     padding-top: 2%;
     font-weight: bold;
     font-size: smaller;
     line-height: 23px;
-
 }
+
 
 .button {
     background-color: #ffcc00; 
@@ -118,6 +140,7 @@ h4 {
     display: flex;
     letter-spacing: 5px;
     background-color: rgb(255, 255, 255);
+    padding-bottom: 59px;
 
 }
 
@@ -129,17 +152,19 @@ h4 {
     width: 37%;
     flex-wrap: wrap;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30%;
+    padding-left: 33%;
+
     
 }
 
 .clogo {
-    padding-top: 60px;
-    padding-left: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
     padding-right: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
@@ -152,20 +177,24 @@ h4 {
     background-color: rgb(255, 255, 255);
 }
 
-.pimg {
-    padding-top: 6%;
+.pimg  {
+    margin-left: 50px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 100px;
-    position: relative;
+    /* position: relative;
     align-items: center;
     justify-content: center;
-   
+    */
+}
+
+#p1:hover {
+    background: url(/assets/images/p1col.jpg);
 }
 
 
 .form {
-    padding-top: 30px;
+    padding-top: 50px;
     flex-direction: row;
     display: flex;
     justify-content: center;
