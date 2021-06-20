@@ -107,3 +107,20 @@ h4 {
     font-style: oblique;
 
 }
+
+
+.clist {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 7%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.clients {
+    background-color:darkslateblue;
+}
