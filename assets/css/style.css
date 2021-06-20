@@ -48,22 +48,38 @@ h4 {
     background-color: antiquewhite;
 
 }
-  /* /* .top-right {
-    position: absolute;
-    font-size: 50px;
-    top: 230px;
-    right: 10%;
-  } */
+
+.amtitle {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 7%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    letter-spacing: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.ampix {
+    align-items: center;
+    background-color: rgb(255, 255, 255);    
+    display: flex;
+    align-items: center;
+    padding-left: 28%;
+
+}
+
+.ampix p {
+    padding-right: 30%;
+    display: flexbox;
+    /* flex-wrap: wrap; */
+    max-width: 300px;
+    padding-top: 2%;
+    font-weight: bold;
+    font-size: smaller;
+    line-height: 23px;
+
+}
 
 
-  /* .top-right {
-      font-size: x-large;
-      font-weight: bolder;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
 
-#aboutme {
-    font-size: xx-large;
-} */
