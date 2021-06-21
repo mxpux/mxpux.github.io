@@ -250,18 +250,7 @@ input[type=submit]:hover {
         padding: 2px;
         }
     
-        .ampix, p {
-        background-color: #ffffff;
-        flex-direction: column;
-        flex-flow: wrap;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        font-weight: bolder;
-        width: 280px;
-        }
-
-        .clogo {
+        .ampix, .p {
         background-color: #ffffff;
         flex-direction: column;
         display: flex;
@@ -269,8 +258,20 @@ input[type=submit]:hover {
         justify-content: center;
         align-items: center;
         font-weight: bolder;
-        position: relative;        
+        margin: auto;           
         }
+
+
+        .clogo, .projport {
+        background-color: #ffffff;
+        flex-direction: column;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        margin: auto;     
+        } 
     }
 
     /* Large smartphones */
@@ -294,25 +295,25 @@ input[type=submit]:hover {
         .ampix, p {
         background-color: #ffffff;
         flex-direction: column;
-        flex-flow: wrap;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        font-weight: bolder;
-        width: 280px;
-        }
-
-        .clogo {
-        background-color: #ffffff;
-        flex-direction: column;
         display: flex;
         position: relative;
         justify-content: center;
         align-items: center;
         font-weight: bolder;
-        position: relative;   
+        margin: auto;   
         }
-    }
+
+        .clogo, .projport {
+        background-color: #ffffff;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        position: relative;  
+        margin: auto;     
+        } 
+        }
 
     /* Small smartphones */
     @media screen and (max-width: 576px) {
@@ -343,16 +344,16 @@ input[type=submit]:hover {
         width: 280px;
         }
 
-        .clogo {
+        .clogo, .projport {
         background-color: #ffffff;
         flex-direction: column;
         display: flex;
-        position: relative;
         justify-content: center;
         align-items: center;
         font-weight: bolder;
-        position: relative;
-        }
+        position: relative;  
+        margin: auto;     
+        } 
     }
-    
+
     /* -----End of Media Query------ */
