@@ -1,8 +1,9 @@
 **M X P U X   -   2 0 2 1**  
 
 ***
-> #### **Portfolio link**: 
-> mxpux.github.io
+> #### Portfolio link: 
+> **[mxpux.github.io](https://mxpux.github.io/)**
+> 
 ***
 
 > ![Screenshot of MXPUX website](https://i.imgur.com/7YWqTRN.png) 
