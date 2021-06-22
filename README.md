@@ -27,3 +27,9 @@
 > - [x] Illustrator
 
 
+***
+> This portfolio website will be updated with upcoming Coding projects throughout the school semester. 
+>
+>
+>
+*Personal information such as full name, E-mail, and phone number are being held as of now for **privacy reasons.***
