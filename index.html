@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,14 +22,22 @@
     <header>
          <b><h1>M <span class="xcolor">X</span> P U X</b></h1>
         <!-- NAV -->
-       
+        <nav>
+            <h4><a href="#aboutme">ABOUT</a></h4>
+            <h4><a href="#clients">CLIENTS</a></h4>
+            <h4><a href="#work">WORK</a></h4>
+            <h4><a href="#contact">CONTACT</a></h4>
+        </nav>
 
     </header>
 
     <!-- MAIN SECTION -->
     <section id="main">
 
-    
+        <!-- HERO CONTAINER SECTION -->
+        <div class="containerhero">
+            <img src="assets/images/hero.jpg" class="containerhero" alt="Designer and Coder" width="100%vh"></div>
+        </div>
 
         <div class="containerinfo">
         <!-- ABOUT ME SECTION -->
@@ -37,10 +45,57 @@
             DESIGNER & CODER
         </div>
         
+        <div class="ampix">
+            <img src="assets/images/aboutmyel.png" alt="Maria-ProfilePicture" max-width="100%vh" width=380px id="aboutme">
+          
+            <p>With 10+ years of experience being a visual-designer, cultivating successful brands and creative campaigns,
+            I want to be able to build and utilize the technology that's all around me. <br/><br />
+            (Adobe Creative Suites,
+            HTML, CSS, JavaScript)
+            <br/><br />
+            When I'm not designing or coding, you'll find me holding a book in one hand, and an iced tea in the other.
+        <br />
+        <br />
+            <button class="button button4" id="resume">
+            <a href="assets/mxpux-Resume.pdf" alt="Maria-Resume" target="_blank">
+            Résumé</a></button>
+
+            <button class="button button4" id="resume">
+                <a href="https://github.com/mxpux" alt="Maria-GitHub" target="_blank">
+                GitHub</a></button>
+            </p>
+        </div>
+        </div></div>
+        <!-- END OF ABOUT ME SECTION -->
+        <!-- ECLIENTS AND PROJECTS SECTION -->
+        <div class="clist">
+            CLIENTS & PROJECTS
+        </div>
+
+        <div class="clients">
+        <max-width="100%vh" width=390px id="clients">
+                
+            <img src="assets/images/nascar.png" width="90px" class="clogo" alt="ClientLogo-Nascar">
+            <img src="assets/images/mlb.png" width="50px" class="clogo" alt="ClientLogo-MLB">
+            <img src="assets/images/ford.png" width="60px" class="clogo" alt="ClientLogo-Ford">
+            <img src="assets/images/tommybahama.png" width="160px" class="clogo" alt="ClientLogo-TommyBahama">
+            <img src="assets/images/mot.jpg" width="60px" class="clogo" alt="ClientLogo-MuseumOfTolerance">
+            <img src="assets/images/Groupon-Logo.png" width="90px" class="clogo" alt="ClientLogo-Groupon">
+            <img src="assets/images/eb.png" width="90px" class="clogo" alt="ClientLogo-eventbrite">
+            <img src="assets/images/Oceana.jpg" width="90px" class="clogo" alt="ClientLogo-Oceana">
+        </div>
+
+        <div class="work">
+            <max-width="100%vh" width=300px id="work">
+                    
+            <a href="https://mxpux.github.io/stocking/" target="_blank" class="clickproj"><img src="assets/images/stocking.png" class="projport" width="300" alt="Stocking Web App"></a>
+            <img src="assets/images/p2.jpg" class="projport" width="300" alt="Project-NascarFS500">
+            <img src="assets/images/p3.jpg" class="projport" width="300"alt="Project-Ford">
+        </div>
         <!-- END OF CLIENTS AND PROJECTS SECTION -->
         <!-- START OF FORM SECTION -->
         <div class="contactform" id="contact">
-       
+            STAY IN TOUCH
         </div>
 
         <div class="form">
@@ -49,7 +104,7 @@
             <input type="text" id="name" name="name" placeholder="First Name">
             <input type="text" id="name" name="name" placeholder="Last Name">
             <br />
-            <input type="text" id="email" name="email" placeholder="Email me to stay in touch!">
+            <input type="text" id="email" name="email" placeholder="Email">
             <div class="buttonsubmit">
             <p><input type="submit" value="Say Hi!">
             </form></div>

@@ -231,6 +231,14 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #333;
 }
+
+.clickproj:hover {
+    cursor: pointer;
+    background-color: ghostwhite;
+}
+
+
+
 /* END OF FORM SECTION */
 
 
@@ -359,5 +367,7 @@ input[type=submit]:hover {
         margin: auto;     
         } 
     }
+
+
 
     /* -----End of Media Query------ */
