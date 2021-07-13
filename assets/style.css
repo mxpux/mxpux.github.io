@@ -185,6 +185,13 @@ a:active {
     justify-content: center;
 }
 
+.linkedin {
+    font-size: 9px;
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
 /* END OF PROJECT SECTION */
 /* START OF FORM SECTION */
 .form {
